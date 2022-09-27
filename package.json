@@ -1,18 +1,30 @@
 {
   "name": "structured-response",
   "version": "1.0.0",
-  "description": "By using this pacage you can send structured response.",
+  "description": "The structured-response is a way to send the response to the client app from Express Js. Send data to the client in an organized way so that the front-end developer enjoys the work.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MHNahib/structured-response.git"
+  },
   "keywords": [
-    "structured",
+    "structured-response",
     "response",
-    "response",
-    "send"
+    "express",
+    "node",
+    "send",
+    "http",
+    "http-status-codes",
+    "http-status"
   ],
   "author": "M. H. Nahib",
+  "bugs": {
+    "url": "https://github.com/MHNahib/structured-response/issues"
+  },
+  "homepage": "https://github.com/MHNahib/structured-response#readme",
   "license": "MIT",
   "dependencies": {
     "http-status-codes": "^2.2.0"
