@@ -5,7 +5,7 @@ const response = async (
   code = StatusCodes.ACCEPTED,
   status = true,
   data = {},
-  message = getReasonPhrase(StatusCodes.OK)
+  message
 ) => {
   if (!message) {
     message = getReasonPhrase(code);
